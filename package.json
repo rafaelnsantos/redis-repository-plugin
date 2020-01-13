@@ -1,0 +1,21 @@
+{
+  "name": "redis-repository-plugin",
+  "version": "1.0.0",
+  "description": "redis repository plugin for graphql-api-scripts",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaelnsantos/redis-repository-plugin.git"
+  },
+  "author": "Rafael Santos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rafaelnsantos/redis-repository-plugin/issues"
+  },
+  "homepage": "https://github.com/rafaelnsantos/redis-repository-plugin#readme",
+  "dependencies": {
+    "graphql-api-scripts": "^0.0.49",
+    "tedis": "^0.1.10"
+  }
+}
