@@ -1,6 +1,6 @@
 {
   "name": "redis-repository-plugin",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "redis repository plugin for graphql-api-scripts",
   "main": "index.js",
   "types": "index.d.ts",

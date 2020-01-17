@@ -21,9 +21,8 @@ exports.RedisRepository = () => {
     })
   }
 
-  return {
-    _disconnect: async () => tedis.close(),
-    _clear: async () => console.log('todo: clear redis db'),
-    ...tedis
-  }
+  tedis._disconnect = () => tedis.close()
+  tedis._clear = () => tedis.command("flushall");
+
+  return tedis
 }
